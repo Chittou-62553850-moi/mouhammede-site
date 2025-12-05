@@ -1,0 +1,23 @@
+.header{
+    background-color: rgb(128, 219, 100);
+    text-align: center;
+    width: 100%;   
+
+}
+#Acceuil{
+    float: left;
+    background-color: aqua;
+    width: 69%;
+    height: 1200px;
+}
+#Actualités{
+    float: right;
+    background-color: blueviolet;
+    width: 30%;
+    height: 1200px;
+    display: block;
+}
+.image{
+    text-align: center;
+    
+}
