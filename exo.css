@@ -1,29 +1,42 @@
 .header{
-    background-color: rgb(128, 219, 100);
+    background-color: rgb(200, 230, 100);
     text-align: center;
     width: 100%;   
+    padding: 20px;
+    box-sizing: border-box;
 
 }
 #Acceuil{
-    float: left;
     background-color: aqua;
-    width: 69%;
-    height: 1200px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 #Actualités{
-    float: right;
     background-color: blueviolet;
-    width: 30%;
-    height: 1200px;
-    display: block;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 img{
-    text-align: center;
+    display: block;
     max-width: 100%;
     height: auto;
+    margin: auto;
 }
 body{
     font-size: 16px;
     margin: 0;
     line-height: 1.5;
+    font-family: Arial, sans-serif;
 }
+@media (min-width: 768px){
+    #Acceuil, #Actualités{
+        width: 50%;
+        float: left;
+        height: auto;
+}
+    #Actualités {
+        float: right;
+        }
+    }
